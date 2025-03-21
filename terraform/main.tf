@@ -1,5 +1,5 @@
 module "java" {
   source     = "./modules/java"
-  project_id = "off-net-dev"
-  region     = "northamerica-northeast1"
+  project_id = var.project_id
+  region     = var.region
 }
