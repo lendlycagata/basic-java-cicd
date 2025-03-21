@@ -8,7 +8,7 @@ public class MyDemoJavaDevopsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyDemoJavaDevopsApplication.class, args);
-		System.out.println("Hello Pogs!");
+
 	}
 
 }
